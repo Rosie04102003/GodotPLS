@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://ok3tw020so16"]
+[gd_scene load_steps=4 format=3 uid="uid://ok3tw020so16"]
 
 [ext_resource type="Texture2D" uid="uid://iicwtp1rbu36" path="res://icon.svg" id="1_ii7de"]
 [ext_resource type="Texture2D" uid="uid://b441ep8nxbjsb" path="res://icon1.svg" id="2_jyqmy"]
+[ext_resource type="Texture2D" uid="uid://bd2sa5k7sf88w" path="res://icon2.svg" id="3_3g04u"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -12,3 +13,7 @@ texture = ExtResource("1_ii7de")
 [node name="Icon1" type="Sprite2D" parent="."]
 position = Vector2(189, 262)
 texture = ExtResource("2_jyqmy")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(916, 270)
+texture = ExtResource("3_3g04u")
