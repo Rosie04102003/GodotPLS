@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://ok3tw020so16"]
+[gd_scene load_steps=6 format=3 uid="uid://ok3tw020so16"]
 
 [ext_resource type="Texture2D" uid="uid://iicwtp1rbu36" path="res://icon.svg" id="1_ii7de"]
 [ext_resource type="Texture2D" uid="uid://b441ep8nxbjsb" path="res://icon1.svg" id="2_jyqmy"]
 [ext_resource type="Texture2D" uid="uid://bd2sa5k7sf88w" path="res://icon2.svg" id="3_3g04u"]
 [ext_resource type="Texture2D" uid="uid://bkvn8djouplk8" path="res://icon3.svg" id="4_rwp1m"]
+[ext_resource type="Texture2D" uid="uid://chuetxx8i1tge" path="res://icon4.svg" id="5_ry4ai"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -22,3 +23,7 @@ texture = ExtResource("3_3g04u")
 [node name="Icon3" type="Sprite2D" parent="."]
 position = Vector2(551, 487)
 texture = ExtResource("4_rwp1m")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+position = Vector2(920, 483)
+texture = ExtResource("5_ry4ai")
